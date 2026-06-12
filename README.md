@@ -20,22 +20,22 @@ apt install apache2 -y
 systemctl start apache2
 systemctl enable apache2
 
-#copy from github
+# copy from github
 git clone https://github.com/thawaresameer715-cyber/Linux_Project_ApacheServer.git
 
-#installing unzipping tool
+# installing unzipping tool
 sudo apt install unzip
 
-#Moving into project dirictory
+# Moving into project dirictory
 cd /home/ubuntu/Linux_Project_ApacheServer
 
-#Renaming
+# Renaming
 mv 'Zay eCommerce website files.zip' Zay_ecommerce.zip
 
 # unziping
 unzip Zay_ecommerce.zip
 
-#Renaming
+# Renaming
 mv 'Zay eCommerce website files' Z_ecommers
 
 # Remove default Apache page
